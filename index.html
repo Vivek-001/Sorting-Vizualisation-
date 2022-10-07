@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- <link rel="stylesheet" href="./bootstrap/bootstrap.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand mr-5" href="">Sorting Visualizer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav algos text-center">
+          <li class="nav-item mr-2">
+            <button class="nav-link">Bubble</button>
+          </li>
+          <li class="nav-item mr-2">
+            <button class="nav-link">Selection</button>
+          </li>
+          <li class="nav-item mr-2">
+            <button class="nav-link">Insertion</button>
+          </li>
+          <li class="nav-item mr-2">
+            <button class="nav-link">Merge</button>
+          </li>
+          <li class="nav-item mr-2">
+            <button class="nav-link">Heap</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <section>
+    <div class="array-inputs">
+      <div class="d-inline mr-2">
+        <label for="customRange2">Size of Array</label>
+        <input type="range" class="custom-range" min=20 max=80 id="arr-size" step="10" value="20">
+      </div>
+
+      <div class="d-inline mr-2">
+        <label for="customRange2">Speed</label>
+        <input type="range" class="custom-range" min=1 max=5 id="speed" step="1" value="4">
+      </div>
+
+      <button id="arr-generate" class="btn btn-md btn-primary mr-2">Generate New Array</button>
+      <button id="stop" class="btn btn-md btn-danger btn-locked" disabled>Stop</button>
+    </div>
+
+
+    <div class="row mt-3 text-center m-0">
+      <div class="col-md-1"></div>
+      <div id="array-container" class="col-md-10">
+        <!-- Bars apper here -->
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </section>
+
+  <footer>
+
+  </footer>
+
+
+
+  <!-- scripts -->
+  <!-- <script src="./bootstrap/bootstrap.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="./bootstrap/bootstrap.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/visualizations.js"></script>
+
+  <script src="./js/algo/bubbleSort.js"></script>
+  <script src="./js/algo/heapSort.js"></script>
+  <script src="./js/algo/insertionSort.js"></script>
+  <script src="./js/algo/mergeSort.js"></script>
+  <script src="./js/algo/quickSort.js"></script>
+  <script src="./js/algo/selectionSort.js"></script>
+
+</body>
+
+</html>

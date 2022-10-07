@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  background-color: black !important;
+}
+.navbar-brand{
+  font-size: 2.5rem !important;
+  margin-right: 5rem !important;
+}
+.nav-item{
+  font-size: 1.5rem;
+}
+.array-inputs{
+  margin-top: 1rem;
+  text-align: center;
+}
+.algos{
+  margin-left: auto;
+}
+
+.nav-item button{
+  margin: auto;
+}
+#array-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.btn-locked{
+  cursor: not-allowed !important;
+  /* color: red; */
+}
+
+.nav-link.btn-selected{
+  color: white !important;
+}
+
+button.nav-link{
+  outline: none;
+  background-color: transparent !important;
+  height: 100%;
+  border: none !important;
+  cursor: pointer;
+}
