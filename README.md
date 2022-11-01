@@ -1,8 +1,6 @@
 # Sorting Visualizer
 
-https://vivek-001.github.io/Sorting-Vizualisation-/
-
-Visualization of different sorting algorithms in C++ with SDL2 Library.
+https://vivek-001.github.io/Sorting-Vizualisation-
 
 A sorting algorithm is an algorithm that puts the elements of a list in a certain order. While there are a large number of sorting algorithms, in practical implementations a few algorithms predominate.
 In this implementation of sorting visualizer, we'll be looking at some of these sorting algorithms and visually comprehend their working.
